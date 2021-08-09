@@ -57,7 +57,6 @@ export const ReflexAgent = () => {
                             break;
 
                         case 9: case 10:
-                            console.log('ensucio ambos')
                             setLogs(state => `ENSUCIA A y B\n`+state);
                             setStates(states =>{ return {...states, stateA: true, stateB: true}});
                             break;
@@ -167,7 +166,7 @@ export const ReflexAgent = () => {
             </Row>
 
             <Row>
-                Total Pasos: { counts.reduce((a, b) => a + b, 0) }
+                Total de Pasos: { counts.reduce((a, b) => a + b, 0) }
             </Row>
 
         </Container>
