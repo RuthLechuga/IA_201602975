@@ -1,0 +1,35 @@
+.state {
+    height: 10vh;
+}
+
+.dirty {
+    background-color: burlywood;
+    background-image: linear-gradient(rgba(255, 109, 109, 0.4), rgba(255,255,255,.4)), url("https://image.flaticon.com/icons/png/512/2855/2855803.png");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.clean {
+    background-color: white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.664), rgba(255, 255, 255, 0)), url("https://image.flaticon.com/icons/png/512/1825/1825469.png");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.room {
+    width: 33vh;
+    height: 50vh;
+}
+
+.agent {
+    width: 50vh;
+    height: 40vh;
+}
+
+.textarea{
+    height: 50vh;
+}
